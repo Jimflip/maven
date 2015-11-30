@@ -30,6 +30,7 @@ ark 'maven' do
   home_dir node['maven']['m2_home']
   win_install_dir node['maven']['m2_home']
   append_env_path true
+  owner node['maven']['owner']
 end
 
 # setup environmental variables
