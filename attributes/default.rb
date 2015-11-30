@@ -30,3 +30,4 @@ default['maven']['plugin_version'] = '2.4'
 default['maven']['repositories'] = ['http://repo1.maven.apache.org/maven']
 default['maven']['setup_bin'] = false
 default['maven']['owner'] = 'root'
+default['maven']['group'] = 'nobody'
